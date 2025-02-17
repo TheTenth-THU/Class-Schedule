@@ -10,14 +10,14 @@ build_schedule_html(
             type='3',
             term='2024-2025-2',
             config_path='config.json',
-            save_path='response.html'
+            save_path='demo/response.html'
         ),
-        save_path='parsed.json'
+        save_path='demo/courses.json'
     ),
-    save_path='schedule.html'
+    save_path='demo/schedule.html'
 )
 
 export_image(
-    'schedule.html',
-    'schedule.png'
+    'demo/schedule.html',
+    'demo/schedule.png'
 )
